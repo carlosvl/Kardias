@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Que_ayuda_necesita__c</fullName>
+    <externalId>false</externalId>
+    <label>Que ayuda necesita</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Segunda Opinion Asistencial</fullName>
+                <default>false</default>
+                <label>Segunda Opinion Asistencial</label>
+            </value>
+            <value>
+                <fullName>Segunda Opinion Privado</fullName>
+                <default>false</default>
+                <label>Segunda Opinion Privado</label>
+            </value>
+            <value>
+                <fullName>Primera Valoración Asistencial</fullName>
+                <default>false</default>
+                <label>Primera Valoración Asistencial</label>
+            </value>
+            <value>
+                <fullName>Primera Valoración Privado</fullName>
+                <default>false</default>
+                <label>Primera Valoración Privado</label>
+            </value>
+            <value>
+                <fullName>Otro tipo de Apoyo</fullName>
+                <default>false</default>
+                <label>Otro tipo de Apoyo</label>
+            </value>
+            <value>
+                <fullName>Referenciación paciente</fullName>
+                <default>false</default>
+                <label>Referenciación paciente</label>
+            </value>
+            <value>
+                <fullName>Traslado Paciente Asistencial</fullName>
+                <default>false</default>
+                <label>Traslado Paciente Asistencial</label>
+            </value>
+            <value>
+                <fullName>Información Kardias</fullName>
+                <default>false</default>
+                <label>Información Kardias</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
