@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quien__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>En caso de tener un familiar con cardiopatía o alguna otra enfermedad, realice la búsqueda del paciente o  el registro de un nuevo paciente seleccionando la opción &quot;Crear Contacto&quot;.</inlineHelpText>
+    <label>¿Quién? (familiar con enfermedad)</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Candidatos</relationshipLabel>
+    <relationshipName>Candidatos</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

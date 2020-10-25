@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Paciente__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Segun lo que nos digan si tiene seguro privado, si puede pagar una consulta, etc.</inlineHelpText>
+    <label>Tipo de Paciente</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Privado</fullName>
+                <default>false</default>
+                <label>Privado</label>
+            </value>
+            <value>
+                <fullName>Medio</fullName>
+                <default>false</default>
+                <label>Medio</label>
+            </value>
+            <value>
+                <fullName>Asistencial</fullName>
+                <default>false</default>
+                <label>Asistencial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
