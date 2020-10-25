@@ -1,0 +1,25 @@
+minimum_cumulusci_version: '3.20.1'
+project:
+    name: Kardias
+    package:
+        name: Kardias
+        api_version: '49.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/Kardias/tests
+            options:
+                outputdir: robot/Kardias/results
+
+    robot_testdoc:
+        options:
+            path: robot/Kardias/tests
+            output: robot/Kardias/doc/Kardias_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
